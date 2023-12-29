@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS ucode_reg;
 
 CREATE DATABASE IF NOT EXISTS ucode_reg;
 
--- CREATE USER 'mhrynenko'@'localhost' IDENTIFIED BY 'securepass';
+-- CREATE USER 'mhrynenko'@'localhost' IDENTIFIED BY '';
 
 GRANT ALL PRIVILEGES ON ucode_reg. * TO 'mhrynenko'@'localhost';
 
